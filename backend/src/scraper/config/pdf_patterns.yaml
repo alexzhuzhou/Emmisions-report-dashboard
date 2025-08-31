@@ -1,0 +1,53 @@
+# Patterns that might indicate low-quality PDFs
+# Only reject if no criteria patterns match in content
+
+presentation_patterns:
+  - investor presentation
+  - earnings call
+  - roadshow
+  - quarterly results
+  - investor day
+  - corporate presentation
+
+# Paths that indicate high-value PDFs (override rejection)
+valuable_paths:
+  - sustainability
+  - esg
+  - annual-report
+  - 10-k
+  - 10k
+  - responsibility
+  - csr
+  - environmental
+  - climate
+
+# Required minimum matches in PDF content
+min_criteria_matches: 1
+min_sustainability_terms: 2
+
+# NEW: Company mention requirements to prevent third-party PDFs
+required_company_mentions: 2 # Minimum number of company mentions required
+company_name_boost: true # Boost scoring for company name mentions
+
+# Quick domain checks for large PDFs
+max_pdf_size_quick_check: 50000000 # 50MB - do quick domain check first
+company_domain_suffixes:
+  - .com
+  - .org
+  - .net
+  - aboutamazon.com
+  - sustainability.
+
+# Sustainability terms to look for
+sustainability_terms:
+  - sustainability
+  - esg
+  - environmental
+  - emissions
+  - climate
+  - carbon
+  - fleet
+  - vehicles
+  - transportation
+  - renewable
+  - clean energy

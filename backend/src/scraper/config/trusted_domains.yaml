@@ -1,0 +1,199 @@
+# Major news and financial outlets
+news_outlets:
+  - wsj.com
+  - bloomberg.com
+  - reuters.com
+  - ft.com
+  - cnbc.com
+  - businesswire.com
+  - prnewswire.com
+  - globenewswire.com
+
+# Government and regulatory
+government:
+  - sec.gov
+  - epa.gov
+  - europa.eu
+  - gov.uk
+  - carb.ca.gov
+  - energy.gov
+  - nhtsa.gov
+  - dot.gov
+  - fmcsa.dot.gov
+
+# Stock exchanges
+exchanges:
+  - nyse.com
+  - nasdaq.com
+  - sgx.com
+  - tsx.com
+  - asx.com.au
+  - euronext.com
+
+# Industry publications
+trade_publications:
+  - freightwaves.com
+  - transporttopics.com
+  - fleetowner.com
+  - ccjdigital.com
+  - truckinginfo.com
+  - worktruckonline.com
+  - heavydutytrucking.com
+  - commercialfleet.org
+
+# Professional networks
+professional:
+  - linkedin.com
+  - glassdoor.com
+  - indeed.com
+
+# Industry conferences and events
+conferences:
+  - actexpo.com
+  - worktruckweek.com
+  - truckingshow.com
+  - nacvshow.com
+
+# Industry organizations
+industry_orgs:
+  - ngvamerica.org
+  - cleanenergyfuels.com
+  - gladstein.org
+  - calstart.org
+  - apta.com
+  - truckinginfo.com
+
+# Sustainability reporting
+sustainability:
+  - cdp.net
+  - globalreporting.org
+  - sciencebasedtargets.org
+  - sasb.org
+  - tcfdhub.org
+
+# Common corporate domains
+corporate_patterns:
+  - sustainability.
+  - esg.
+  - investors.
+  - ir.
+  - annualreport.
+  - responsibility.
+  - csr.
+  - people-planet.
+  - nachhaltigkeit. # German sustainability
+  - durabilite. # French sustainability
+  - fleet.
+  - vehicles.
+  - trucks.
+  - news.
+  - press.
+  - media.
+
+# Core business websites
+corporate_sites:
+  - aboutus
+  - company
+  - corporate
+  - investor-relations
+  - ir.
+  - about.
+  - www.
+
+# Sustainability and ESG reporting
+esg_sustainability:
+  - sustainability.
+  - esg.
+  - environment.
+  - cdp.net
+  - globalreporting.org
+  - sasb.org
+  - tcfdhub.org
+  - sciencebasedtargets.org
+  - ghgprotocol.org
+  - ceres.org
+
+# Financial and business news
+financial_news:
+  - bloomberg.com
+  - reuters.com
+  - wsj.com
+  - ft.com
+  - cnbc.com
+  - marketwatch.com
+  - businesswire.com
+  - prnewswire.com
+  - globenewswire.com
+
+# Industry publications
+industry_publications:
+  - greenbiz.com
+  - environmentalleader.com
+  - sustainablebrands.com
+  - edie.net
+  - climateaction.org
+
+# Transportation and fleet industry
+fleet_transport:
+  - fleetowner.com
+  - trucking.com
+  - truckinginfo.com
+  - ccjdigital.com
+  - overdriveonline.com
+  - freightwaves.com
+  - trucks.com
+  - heavydutytrucking.com
+  - worktruckonline.com
+  - fleetequipmentmag.com
+  - tanktransport.com
+  - trucknews.com
+  - truckingefficiency.org
+  - cleantrucks.org
+
+# Energy and fuel industry
+energy_fuel:
+  - bioenergy-news.com
+  - bioenergy-insight.com
+  - renewableenergyworld.com
+  - energycentral.com
+  - oilgasjournal.com
+  - ngvjournal.com
+  - alternativefuels.org
+  - cleanegroup.org
+  - rng-world.com
+  - biogas-world.com
+
+# Technology and automotive
+tech_automotive:
+  - sae.org
+  - wardsauto.com
+  - automotive-fleet.com
+  - automotivelogistics.media
+  - greencarreports.com
+  - hybridcars.com
+  - electrive.com
+
+# Consulting and research
+consulting_research:
+  - mckinsey.com
+  - bcg.com
+  - deloitte.com
+  - pwc.com
+  - accenture.com
+  - erm.com
+  - wood.com
+
+# Corporate patterns for generic matching
+corporate_patterns:
+  - sustainability
+  - annual-report
+  - esg-report
+  - 10-k
+  - 20-f
+  - proxy
+  - investor
+  - ir
+  - about
+  - news
+  - press
+  - media

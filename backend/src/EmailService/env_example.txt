@@ -1,0 +1,44 @@
+# ===================================================================
+# CHEVRON SQ - EMAIL NOTIFICATION CONFIGURATION
+# ===================================================================
+# Copy this file to .env and fill in your actual values
+# CLIENT SWEs: Please configure these settings for email functionality
+
+# OpenAI API Configuration (existing)
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Email Server Configuration
+# For Gmail SMTP (recommended):
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+
+# Email Credentials (REQUIRED for email notifications)
+SMTP_USERNAME=your_email@gmail.com
+SMTP_PASSWORD=your_app_password
+
+# For testing: Set this to receive test emails
+NOTIFICATION_EMAIL=test@example.com
+
+# Alternative Email Providers:
+# 
+# For Outlook/Office 365:
+# SMTP_SERVER=smtp-mail.outlook.com
+# SMTP_PORT=587
+#
+# For Yahoo Mail:
+# SMTP_SERVER=smtp.mail.yahoo.com
+# SMTP_PORT=587
+#
+# For Custom SMTP Server:
+# SMTP_SERVER=mail.yourcompany.com
+# SMTP_PORT=25
+
+# ===================================================================
+# SETUP INSTRUCTIONS:
+# ===================================================================
+# 1. Copy this file: cp env_example.txt .env
+# 2. For Gmail: Enable 2FA and generate App Password
+# 3. Set SMTP_USERNAME to your email
+# 4. Set SMTP_PASSWORD to your app password (not regular password)
+# 5. For testing: Set NOTIFICATION_EMAIL to where you want test emails
+# =================================================================== 

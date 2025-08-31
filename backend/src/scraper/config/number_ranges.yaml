@@ -1,0 +1,41 @@
+# Fleet size ranges by sector
+# Format: [min, max] in absolute numbers
+# Updated to accommodate trailer/equipment fleets which can exceed powered vehicle counts
+
+sectors:
+  waste_management:
+    cng_fleet_size: [3, 10_000]
+    total_truck_fleet_size: [10, 50_000]
+    equipment_fleet_size: [20, 100_000]
+
+  parcel_delivery:
+    cng_fleet_size: [10, 100_000]
+    total_truck_fleet_size: [50, 400_000] # Increased for major logistics companies
+    equipment_fleet_size: [100, 500_000]
+
+  retail:
+    cng_fleet_size: [5, 30_000]
+    total_truck_fleet_size: [100, 300_000] # Increased for major retailers
+    equipment_fleet_size: [200, 400_000]
+
+  food_distribution:
+    cng_fleet_size: [5, 20_000]
+    total_truck_fleet_size: [50, 200_000]
+    equipment_fleet_size: [100, 300_000]
+
+  oil_and_gas:
+    cng_fleet_size: [10, 50_000]
+    total_truck_fleet_size: [100, 300_000]
+    equipment_fleet_size: [200, 400_000]
+
+  logistics: # New category for companies like Amazon
+    cng_fleet_size: [100, 100_000]
+    total_truck_fleet_size: [1000, 400_000] # Amazon's 60,000+ trailers
+    equipment_fleet_size: [5000, 500_000]
+
+# Default ranges if sector not specified
+default:
+  cng_fleet_size: [3, 100_000]
+  total_truck_fleet_size: [50, 400_000] # Increased from 200,000
+  equipment_fleet_size: [50, 500_000] # New criterion
+  alt_fuels: [1, 100_000]

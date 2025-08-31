@@ -1,0 +1,29 @@
+annotated-types==0.7.0
+anyio==4.9.0
+asyncpg>=0.29.0
+click==8.1.8
+fastapi==0.115.12
+greenlet>=1.1.0
+h11==0.16.0
+idna==3.10
+pydantic==2.11.4
+pydantic_core==2.33.2
+python-dotenv==1.0.0
+sniffio==1.3.1
+sqlalchemy[asyncio]>=1.4.0
+starlette==0.46.2
+typing-inspection==0.4.0
+typing_extensions==4.13.2
+uvicorn==0.34.2
+
+# Additional dependencies found in codebase but missing from requirements
+beautifulsoup4>=4.12.0    # Used in regex_parser.py
+requests>=2.31.0          # Used for HTTP requests in scraper integration
+openai>=1.3.5            # Used for AI analysis
+playwright>=1.40.0       # Used for browser automation in scraper
+google-search-results>=2.4.2  # Used for Google search API
+trafilatura>=1.6.1       # Used for web scraping
+pymupdf                  # Used for PDF processing
+rapidfuzz                # Used for fuzzy text matching
+
+# Note: smtplib is a built-in Python module for email functionality

@@ -1,0 +1,17 @@
+{
+  "CNG Fleet": {
+    "query": "\"{company}\" \"CNG fleet\" OR \"compressed natural gas vehicles\"",
+    "exclude": ["emissions report PDF"],
+    "max_pages": 2
+  },
+  "Alternative Fuels": {
+    "query": "\"{company}\" \"alternative fuels\" OR \"renewable fuel\" OR \"biofuel\"",
+    "exclude": ["emissions report PDF"],
+    "max_pages": 2
+  },
+  "RNG Production": {
+    "query": "\"{company}\" \"RNG production\" OR \"renewable natural gas production\"",
+    "exclude": ["emissions report PDF"],
+    "max_pages": 2
+  }
+} 

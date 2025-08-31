@@ -1,0 +1,19 @@
+# Core dependencies
+google-search-results>=2.4.2  # For SerpAPI
+python-dotenv>=1.0.0         # For environment variables
+requests>=2.31.0             # For HTTP requests
+openai>=1.3.5                # For OpenAI API access
+playwright>=1.40.0           # For browser automation
+trafilatura>=1.6.1           # For web scraping
+
+# PDF processing and Text matching
+# PyPDF2>=3.0.0               # For PDF processing
+# pdfplumber>=0.10.0          # For better PDF text extraction
+# pytesseract>=0.3.10         # For OCR if needed
+pymupdf
+rapidfuzz
+
+# Development dependencies
+pytest>=7.4.0               # For testing
+black>=23.0.0              # For code formatting
+flake8>=6.0.0              # For linting
