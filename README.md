@@ -369,4 +369,3 @@ npm run dev
 - Review the console logs for error messages
 - Verify all environment variables are set correctly
 - Ensure all dependencies are installed
-- please reach out to myurkovsky@ucdavis.edu for post-handoff troubleshooting
