@@ -1,4 +1,4 @@
-# Chevron-SQ - Sustainability Scoring Platform
+# Sustainability Scoring Platform
 
 A comprehensive platform for analyzing and scoring companies' sustainability metrics, particularly focused on CNG (Compressed Natural Gas) adoption potential. The application combines intelligent web scraping, AI-powered analysis, and a modern web interface to provide detailed sustainability insights.
 
